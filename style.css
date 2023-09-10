@@ -25,13 +25,30 @@ header {
     padding-bottom: 10px;
 }
 
-header > p {
+
+
+.logo {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+#logo-header {
+    font-size: 38px;
     font-weight: bolder;
 }
 
-header > img {
-    width: 300px;
-    height: 150px;
+ #logo-text { /*This is probably the worst way to do this, but it's the only way i know how  */
+    position: absolute;
+    margin-top: -40px; 
+    
+
+}
+
+.logo > img {
+    width: 50px;
+    height: 50px;
 }
 
 img  {
