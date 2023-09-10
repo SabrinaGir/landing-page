@@ -8,6 +8,8 @@ body {
     margin: 0;
     color: #f0d198;
     height: 100vh;
+    font-family: 'Playfair Display', 'arial', 'serif';
+
 }
 
 /* CSS that deals with both the header and the footer */
@@ -76,25 +78,45 @@ a {
 /* CSS that deals with the main content of the page  */
 
 
-.intro {
+#intro {
     height: 45vh;
     background: #dfa572;
     margin: 10px;
     border-radius: 10px;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.product {
+h1 {
+    font-size: 60px;
+}
+
+h1, #about-description {
+    color: #484919;
+}
+
+#about-pizza {
+    margin: 40px;
+}
+
+#product {
     height: 45vh;
     background: #bcc49c;
 }
 
-.testimonials {
+#testimonials {
     height: 45vh;
     background: #acb48c;
 }
 
-.register {
+#register {
     height: 40vh;
     background: #bcc49c;
+}
+
+
+footer {
+    padding: 20px;
 }
