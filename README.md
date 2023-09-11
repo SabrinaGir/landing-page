@@ -1,5 +1,6 @@
 # landing-page
 
+-issues: making website too small makes items go out of their boxes
 
 Attributions: 
     - pizza.png : https://www.pngplay.com/image/13643
