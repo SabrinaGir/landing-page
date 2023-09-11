@@ -3,6 +3,7 @@
 /* CSS for body  */
 
 body {
+    background-color: #f0d198;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -105,9 +106,29 @@ h1, #about-description {
     margin: 40px;
 }
 
+/* CSS that deals with the product area */
+
 #product {
-    height: 45vh;
+    height: 50vh;
     background: #bcc49c;
+}
+
+#product > h1 {
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+#pizzas {
+    display: flex;
+    
+
+}
+
+.pizza {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #f0d198;;
+    margin: 20px;
 }
 
 #testimonials {
