@@ -121,6 +121,7 @@ h1, #about-description {
 #pizzas {
     display: flex;
     justify-content: space-around;
+    margin: 20px;
 }
 
 .pizza {
@@ -137,6 +138,18 @@ h1, #about-description {
 #testimonials {
     height: 45vh;
     background: #acb48c;
+    color: #cd652b;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#testimonials-credit {
+    color: #a2290f;
+    font-weight: 800;
+    
 }
 
 #register {
