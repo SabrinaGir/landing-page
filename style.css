@@ -111,6 +111,7 @@ h1, #about-description {
 #product {
     height: 50vh;
     background: #bcc49c;
+    margin: 10px;
 }
 
 #product > h1 {
@@ -135,6 +136,8 @@ h1, #about-description {
     text-align: center;
 }
 
+/* CSS that deals with the testimonials area*/
+
 #testimonials {
     height: 45vh;
     background: #acb48c;
@@ -143,6 +146,7 @@ h1, #about-description {
     font-size: 40px;
     text-align: center;
     padding-top: 30px;
+    margin-top: 10px;
     
 }
 
@@ -152,12 +156,56 @@ h1, #about-description {
     
 }
 
+/* CSS that deals with the buy now area*/
+
 #register {
     height: 40vh;
     background: #bcc49c;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
 }
 
+#register-box {
+    height: 80%;
+    width: 80%;
+    background: #a2290f;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+#register-text {
+    max-width: 50%;
+}
+
+#buy {
+    color: #e19d4e;
+    font-size: 30px;
+}
+
+#button {
+    min-width: 175px;
+    min-height: 100px;
+    max-height: 25%;
+    background: #e19d4e;
+    color: #a2290f;
+    font-size: 20px;
+    border: none;
+}
+
+#button:hover {
+    background: #dfa572;
+
+}
 
 footer {
     padding: 20px;
+    flex: display;
+    justify-content: space-between;
 }
