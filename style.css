@@ -120,15 +120,18 @@ h1, #about-description {
 }
 #pizzas {
     display: flex;
-    
-
+    justify-content: space-around;
 }
 
 .pizza {
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 150px;
+    min-height: 150px;
+    line-height: 150px; /* not sure if this will work for all display sizes */
     background-color: #f0d198;;
     margin: 20px;
+    color: #cd652b;
+    font-weight: bold;
+    text-align: center;
 }
 
 #testimonials {
