@@ -1,3 +1,0 @@
-IMAGES:
-
-pizza.png: https://www.pngplay.com/image/13643
